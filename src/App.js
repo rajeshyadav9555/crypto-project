@@ -1,11 +1,11 @@
 import { createTheme, ThemeProvider } from "@mui/material";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Coin from "./pages/Coin";
-import Compare from "./pages/Compare";
-import Dashboard from "./pages/Dashboard";
-import Home from "./pages/Home";
-import Watchlist from "./pages/Watchlist";
+import Coin from "./pages/Coin.js";
+import Compare from "./pages/Compare.js";
+import Dashboard from "./pages/Dashboard.js";
+import Home from "./pages/Home.js";
+import Watchlist from "./pages/Watchlist.js";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
